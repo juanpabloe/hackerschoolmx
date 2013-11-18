@@ -1,0 +1,17 @@
+es:
+  activerecord:
+    attributes:
+      applicant:
+        full_name: Nombre completo
+        email: Correo electrónico
+        skype: Skype
+        twitter: Twitter
+        birthdate: Fecha de Nacimiento
+        current_location: Ciudad actual
+        schooling_info: ¿Cuál fue tu último grado de estudios? ¿En dónde?
+        reference: ¿Cómo te enteraste de la Hacker School
+        why_us: ¿Por qué quieres formar parte de la Hacker School MX?
+        archive_through_hs: ¿Qué deseas lograr con lo que aprendas en la Hacker School MX?
+        previous_projects: ¿Has desarrollado alguna aplicación (básica) anteriormente?
+        previous_tools: ¿Qué recursos has utilizado anteriormente para aprender a desarrollar?
+        most_admired_project: ¿Qué aplicación web admiras?
