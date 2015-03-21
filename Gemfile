@@ -12,3 +12,8 @@ gem 'turbolinks'
 gem 'bootstrap-sass', '~> 3.0.2.0'
 gem "font-awesome-rails"
 gem 'jbuilder', '~> 1.2'
+
+group :production do
+  gem 'thin'
+  gem 'rails_12factor'
+end
