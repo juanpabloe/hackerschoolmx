@@ -13,7 +13,11 @@ gem 'bootstrap-sass', '~> 3.0.2.0'
 gem "font-awesome-rails"
 gem 'jbuilder', '~> 1.2'
 
-group :production do
+group :development do
   gem 'thin'
+end
+
+group :production do
+  gem 'unicorn'
   gem 'rails_12factor'
 end
