@@ -56,7 +56,7 @@ jQuery(document).ready(function() {
 	
 	/*
 	    Subscription form
-	*/	
+	
 	$('.subscribe form').submit(function(e) {
 		e.preventDefault();
 	    var postdata = $('.subscribe form').serialize();
@@ -88,6 +88,7 @@ jQuery(document).ready(function() {
 	        }
 	    });
 	});
+    */
 
 });
 
