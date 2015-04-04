@@ -31,6 +31,14 @@ h3 {
     line-height: 30px;
 }
 
+h4 {
+	font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+    opacity: 0.9;
+}
+
 img { max-width: 100%; }
 
 .medium-paragraph {
@@ -150,7 +158,6 @@ img { max-width: 100%; }
 }
 .btn-link-2:hover, .btn-link-2:focus, 
 .btn-link-2:active, .btn-link-2:active:focus { outline: 0; opacity: 0.6; background: rgba(0, 0, 0, 0.3); color: #fff; }
-
 
 /***** Divider *****/
 
