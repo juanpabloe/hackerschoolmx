@@ -655,13 +655,13 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 
 .testimonial-list .testimonial-text {
 	float: left;
-	width: 83%;
+	width: 100%;
 }
 
 .testimonial-list .testimonial-text p { opacity: 0.8; }
-.testimonial-list .testimonial-text p a { color: #fff; border-bottom: 1px dotted #fff; }
+.testimonial-list .testimonial-text p a { color: #65BB45; border-bottom: 1px dotted; }
 .testimonial-list .testimonial-text p a:hover, 
-.testimonial-list .testimonial-text p a:focus { color: #fff; border: 0; }
+.testimonial-list .testimonial-text p a:focus { color: #DDDDDD; border: 0; }
 
 .testimonial-list .nav-tabs {
     border: 0;
@@ -679,7 +679,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
     width: 14px;
     height: 14px;
     padding: 0;
-    background: #fff;
+    background: #DDDDDD;
     border: 0;
     -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 }
