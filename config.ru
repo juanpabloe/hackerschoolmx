@@ -15,6 +15,19 @@ map "/" do
     }
 end
 
+map "/backend" do
+    run lambda { |env|
+      [
+        200,
+        {
+          'Content-Type'  => 'text/html',
+          'Cache-Control' => 'public, max-age=86400'
+        },
+        File.open('public/backend.html', File::RDONLY)
+      ]
+    }
+end
+
 map "/registro" do
   run lambda { |env|
     [
