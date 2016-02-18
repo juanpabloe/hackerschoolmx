@@ -254,9 +254,8 @@ ul.navbar-nav li a.btn-link-2 {
 	margin: 4px 0 0 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background: #eee;
-	border: 1px solid #eee;
-	color: #888;
+	background: #65BB45;
+	color: #fff;
 }
 ul.navbar-nav li a.btn-link-2:hover, 
 ul.navbar-nav li a.btn-link-2:focus, 
@@ -298,7 +297,8 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 }
 
 .subscribe input.subscribe-email {
-	width: 320px;
+	width: 600px;
+  border: 1px solid #EEEEEE;
 }
 
 .subscribe .success-message {
