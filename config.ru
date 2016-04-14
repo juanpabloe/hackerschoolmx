@@ -28,6 +28,19 @@ map "/backend" do
     }
 end
 
+map "/frontend" do
+    run lambda { |env|
+      [
+        200,
+        {
+          'Content-Type'  => 'text/html',
+          'Cache-Control' => 'public, max-age=86400'
+        },
+        File.open('public/frontend.html', File::RDONLY)
+      ]
+    }
+end
+
 map "/data" do
     run lambda { |env|
       [
