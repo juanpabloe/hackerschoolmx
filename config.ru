@@ -67,6 +67,46 @@ map "/registro" do
   }
 end
 
+map "/gracias-fe" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type'  => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/gracias-fe.html', File::RDONLY)
+    ]
+  }
+end
+
+map "/gracias-be" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type'  => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/gracias-be.html', File::RDONLY)
+    ]
+  }
+end
+
+map "/gracias-ds" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type'  => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/gracias-ds.html', File::RDONLY)
+    ]
+  }
+end
+
+
 map "/2015" do
   run lambda { |env|
     [
