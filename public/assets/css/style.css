@@ -48,6 +48,8 @@ img { max-width: 100%; }
 
 .colored-text { color: #65BB45; }
 
+.privacy-notice { color: white; }
+
 ::-moz-selection { background: #65BB45; color: #fff; text-shadow: none; }
 ::selection { background: #65BB45; color: #fff; text-shadow: none; }
 
@@ -91,8 +93,8 @@ img { max-width: 100%; }
 	border-bottom: 1px solid #ddd;
 }
 
-.section-container-image-bg, 
-.section-container-image-bg h2, 
+.section-container-image-bg,
+.section-container-image-bg h2,
 .section-container-image-bg h3 {
 	color: #fff;
 }
@@ -156,7 +158,7 @@ img { max-width: 100%; }
     color: #fff;
     -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
 }
-.btn-link-2:hover, .btn-link-2:focus, 
+.btn-link-2:hover, .btn-link-2:focus,
 .btn-link-2:active, .btn-link-2:active:focus { outline: 0; opacity: 0.6; background: rgba(0, 0, 0, 0.3); color: #fff; }
 
 /***** Divider *****/
@@ -218,8 +220,8 @@ img { max-width: 100%; }
 }
 .modal-footer button:hover { outline: 0; opacity: 0.6; background: none; border: 1px solid #888; color: #888; }
 
-.modal-footer button:focus, .modal-footer button:active:focus, .modal-footer button.active:focus { 
-	outline: 0; opacity: 0.6; background: none; border: 1px solid #888; color: #888; 
+.modal-footer button:focus, .modal-footer button:active:focus, .modal-footer button.active:focus {
+	outline: 0; opacity: 0.6; background: none; border: 1px solid #888; color: #888;
 	-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
 }
 
@@ -257,9 +259,9 @@ ul.navbar-nav li a.btn-link-2 {
 	background: #65BB45;
 	color: #fff;
 }
-ul.navbar-nav li a.btn-link-2:hover, 
-ul.navbar-nav li a.btn-link-2:focus, 
-ul.navbar-nav li a.btn-link-2:active, 
+ul.navbar-nav li a.btn-link-2:hover,
+ul.navbar-nav li a.btn-link-2:focus,
+ul.navbar-nav li a.btn-link-2:active,
 ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background: #e0e0e0; border: 1px solid #e0e0e0; color: #888; }
 
 .navbar-brand {
@@ -297,7 +299,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 }
 
 .subscribe input.subscribe-email {
-	width: 600px;
+	width: 300px;
   border: 1px solid #EEEEEE;
 }
 
@@ -671,7 +673,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 
 .testimonial-list .testimonial-text p { opacity: 0.8; }
 .testimonial-list .testimonial-text p a { color: #65BB45; border-bottom: 1px dotted; }
-.testimonial-list .testimonial-text p a:hover, 
+.testimonial-list .testimonial-text p a:hover,
 .testimonial-list .testimonial-text p a:focus { color: #DDDDDD; border: 0; }
 
 .testimonial-list .nav-tabs {
